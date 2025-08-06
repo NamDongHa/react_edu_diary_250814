@@ -1,27 +1,12 @@
 import Button from "../component/Button.jsx";
 import Header from "../component/Header.jsx";
+import Editor from "../component/Editor.jsx";
 
 const Home = () => {
 
     return (
         <div>
-            <Header title={"Home"}
-                    leftChild={<Button
-                        type="positive"
-                        text={'긍정 버튼'}
-                        onClick={() => {
-                            alert('positive button')
-                        }}
-                    />
-                    }
-                    rightChild={<Button
-                        type="negative"
-                        text={'부정 버튼'}
-                        onClick={() => {
-                            alert('negative button')
-                        }}
-                    />
-                    }/>
+            Home 페이지입니다.
         </div>
     )
 }
