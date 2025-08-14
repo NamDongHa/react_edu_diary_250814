@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 import Button from "./Button.jsx";
 
 const DiaryItem = ({id, emotionId, content, date}) => {
-    const navigate = useNavigate()g
+    const navigate = useNavigate()
     const goDetail = () => {
         navigate(`/diary/${id}`)
     }
